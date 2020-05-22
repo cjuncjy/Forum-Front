@@ -1,0 +1,76 @@
+.w {
+  width: 1200px;
+  margin: 0 auto 0;
+  padding-top: 15px;
+}
+
+.particles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.badge-tag {
+  display: inline-block;
+  margin: 5px;
+  font-size: 13px;
+  padding: 5px 10px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 5px;
+  background-color: #409effee;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #409effcc;
+  }
+}
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+.avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+// .left {
+//   float: left;
+// }
+// .right {
+//   float: right;
+// }
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.ql-syntax {
+  overflow-x: auto;
+}
